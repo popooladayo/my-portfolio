@@ -13,20 +13,17 @@ function Navbar() {
     setNav(!nav)
   }
   return (
-    <div className=' h-[80px]  bg-[#171721] text-gray-500 w-full items-center  text-gray font-bold text-lg p-30' >
+    <div className='flex h-[80px] px-30 bg-[#171721] text-gray-500 w-full items-center  text-gray font-bold text-lg' >
 
-
-
-      <ul className='hidden md:flex justify-between mx-auto ' >
+      <ul className='hidden w-full p-30  md:flex justify-between  ' >
         <li className=' text-2xl'><h1>Popular  Dayo</h1></li>
-
         <li>Home</li>
         <li>Resume</li>
         <li>Github</li>
         <li>Linkedin</li>
         <li>Skills</li>
-      
-       
+
+
       </ul>
       <div onClick={handleClick} className='md:hidden '>
         {!nav ? <FiAlignJustify /> : <AiOutlineClose />}

@@ -9,7 +9,7 @@
 @apply font-[Monstserrat];
     }
     li{
-        @apply px-14;
+        /* @apply px-14; */
         cursor: pointer;
     }
 }
