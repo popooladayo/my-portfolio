@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&family=Roboto:wght@100&display=swap');
+
+@layerbase{
+    body{
+@apply font-[Monstserrat];
+    }
+    li{
+        @apply px-14;
+        cursor: pointer;
+    }
+}
