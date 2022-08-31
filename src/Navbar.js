@@ -13,28 +13,24 @@ function Navbar() {
     setNav(!nav)
   }
   return (
-    <div className='flex h-[80px] px-30 bg-[#171721] text-gray-500 w-full items-center  text-gray font-bold text-lg' >
-
-      <ul className='hidden w-full p-30  md:flex justify-between  ' >
-        <li className=' text-2xl'><h1>Popular  Dayo</h1></li>
+    
+    <div className='flex h-[80px]  bg-[#0a192f] text-gray-500   w-full justify-between items-center px-8 font-bold text-lg' >
+      <div className='font-bold px-2 text-3xl'>   Popular  Dayo</div>
+      <ul className='hidden   md:flex  ' >
         <li>Home</li>
-        <li>Resume</li>
-        <li>Github</li>
-        <li>Linkedin</li>
+        <li>About</li>
         <li>Skills</li>
-
-
+        <li>Contact</li>
       </ul>
-      <div onClick={handleClick} className='md:hidden '>
+      <div onClick={handleClick} className='md:hidden z-10 '>
         {!nav ? <FiAlignJustify /> : <AiOutlineClose />}
       </div>
 
-      <ul className={!nav ? 'hidden' : 'bg-[#171721] w-full h-screen  flex flex-col items-center justify-center'} >
-        <li className='text-2xl'>Home</li>
-        <li className='text-2xl'>Resume</li>
-        <li className='text-2xl'>Github</li>
-        <li className='text-2xl'>Linkedin</li>
-        <li className='text-2xl'>Skills</li>
+      <ul className={!nav ? 'hidden' : 'bg-[#0a192f] w-full top-0 left-0 absolute h-screen flex flex-col justify-center items-center'} >
+        <li className='text-2xl py-6 '>Home</li>
+        <li className='text-2xl py-6'>About</li>
+        <li className='text-2xl py-6'>Skills</li>
+        <li className='text-2xl py-6'>Contact</li>
       </ul>
 
 

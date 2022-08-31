@@ -2,13 +2,15 @@
 
 import { Appprovider } from './Context';
 import Navbar from './Navbar';
+import About from './About'
 
 function App() {
 
   return (
     <Appprovider>
     <div className="">
-   <Navbar/>
+        <Navbar />
+        <About />
       </div>
     </Appprovider>
   );
