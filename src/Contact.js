@@ -17,7 +17,7 @@ function Contact() {
               </div>
 
               <div className='pb-8'>
-                  <textarea className='' placeholder='Message' > </textarea> 
+                  <textarea className=' px-10 py-10 md:px-20 md:py-20' placeholder='Email' > </textarea>
               </div>
           </form>
     </div>
