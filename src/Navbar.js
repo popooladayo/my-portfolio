@@ -15,7 +15,7 @@ function Navbar() {
   return (
     
     <div className='flex h-[80px]  bg-[#0a192f] text-gray-500   w-full justify-between items-center px-8 font-bold text-lg' >
-      <div className='font-bold px-2 text-3xl'>   Popular  Dayo</div>
+      <div className='font-bold px-2 text-xl md:text-4xl '>   Popular  Dayo</div>
       <ul className='hidden   md:flex  ' >
         <li>Home</li>
         <li>About</li>
