@@ -11,5 +11,6 @@
     li{
          @apply px-4; 
         cursor: pointer;
+    
     }
 }

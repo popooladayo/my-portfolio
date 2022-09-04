@@ -10,7 +10,7 @@ import github1 from './assest/github1.png'
 
 function Skills() {
   return (
-    <div className=' text-gray-400   ml-7'>
+    <div name="skills" className=' text-gray-400   ml-7'>
       <div className=' '>
         <p className='font-bold text-2xl border-b-4 inline border-pink-500 '>Skills</p>
         <p className='py-4'> //these are the technologies i work with</p>

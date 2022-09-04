@@ -2,9 +2,10 @@
 
 import { Appprovider } from './Context';
 import Navbar from './Navbar';
-import About from './About'
+import Home from './Home'
 import Skills from './Skills';
 import Contact from './Contact';
+import About from './About';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <Appprovider>
       <div className="bg-[#0a192f]">
         <Navbar />
-        <About />
+        <Home />
+        <About/>
         <Skills />
         <Contact/>
       </div>
