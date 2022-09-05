@@ -18,11 +18,11 @@ function Skills() {
       <div className=' w-full grid grid-cols-2 sm:grid-cols-3 ' >
       <div >
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={html}  alt="HTML" />
-        <p className='py-4'>HTML</p>
+        <p className='py-4 ml-4'>HTML</p>
       </div>
       <div>
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={css} alt="ALT" />
-    <p className='py-4'>CSS</p>
+    <p className='py-4 ml-6'>CSS</p>
       </div>
       <div>
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={javascript} alt="JAVASCRIPT" />
@@ -30,7 +30,7 @@ function Skills() {
         </div>
         <div>
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={react} alt="REACT" />
-          <p>REACT</p>
+          <p className='ml-2'>REACT</p>
         </div>
         <div>
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={tailwind} alt="TAILWIND" />
@@ -38,7 +38,7 @@ function Skills() {
         </div>
         <div>
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={github1} alt="GITHUB" />
-          <p>GITHUB</p>
+          <p className='ml-1'>GITHUB</p>
         </div>
       </div>
     </div>
