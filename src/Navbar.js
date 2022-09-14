@@ -15,25 +15,25 @@ function Navbar() {
   }
   return (
     
-    <div className='flex h-[80px]  bg-[#0a192f] text-gray-500   w-full justify-between items-center px-8 font-bold text-lg' >
+    <div className='flex h-[80px]  bg-[#0a192f] text-white   w-full justify-between items-center px-8 font-bold text-lg' >
       <div className='font-bold px-2 text-xl md:text-4xl '>   Popular  Dayo</div>
       <ul className='hidden   md:flex   ' >
-        <li >
+        <li  className='hover:text-pink-400'>
           <Link  to="home"  smooth={true}  duration={500} >
             Home
           </Link>
-        </li>
-        <li>
+        </li >
+        <li className='hover:text-pink-400'>
           <Link to="about" smooth={true} duration={500} >
             About
           </Link>
         </li>
-        <li>
+        <li className='hover:text-pink-400'>
           <Link to="skills" smooth={true} duration={500} >
             Skills
           </Link>
         </li>
-        <li>
+        <li className='hover:text-pink-400'>
           <Link to="contact" smooth={true} duration={500} >
             Contact
           </Link>

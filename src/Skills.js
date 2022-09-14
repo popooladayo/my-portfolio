@@ -10,10 +10,11 @@ import github1 from './assest/github1.png'
 
 function Skills() {
   return (
-    <div name="skills" className=' text-gray-400   ml-7'>
+    <div name="skills" className=' text-white  py-32  ml-80'>
+      <div className=''>
       <div className=' '>
-        <p className='font-bold text-2xl border-b-4 inline border-pink-500 '>Skills</p>
-        <p className='py-4'> //these are the technologies i work with</p>
+        <p className='font-bold text-2xl border-b-4 inline border-pink-500'>Skills</p>
+        <p className='py-4'> these are the technologies i work with</p>
       </div>
       <div className=' w-full grid grid-cols-2 sm:grid-cols-3 ' >
       <div >
@@ -39,6 +40,7 @@ function Skills() {
         <div>
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={github1} alt="GITHUB" />
           <p className='ml-1'>GITHUB</p>
+        </div>
         </div>
       </div>
     </div>
