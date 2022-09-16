@@ -10,13 +10,13 @@ import github1 from './assest/github1.png'
 
 function Skills() {
   return (
-    <div name="skills" className=' text-white  py-32 ml:10 md:ml-70'>
+    <div name="skills" className=' text-white  py-32 ml:10'>
       <div className='md:mx-auto'>
-      <div className=' '>
+      <div className='text-center '>
         <p className='font-bold text-2xl border-b-4 inline border-pink-500'>Skills</p>
         <p className='py-4'> these are the technologies i work with</p>
       </div>
-      <div className=' w-full grid grid-cols-2 md:grid-cols-3 ' >
+      <div className=' w-full grid grid-cols-2 md:grid-cols-3 items-center justify-center mx-auto' >
       <div >
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={html}  alt="HTML" />
         <p className='py-4 ml-4'>HTML</p>
@@ -27,7 +27,7 @@ function Skills() {
       </div>
       <div>
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={javascript} alt="JAVASCRIPT" />
-          <p>JAVASCRIPT</p>d        </div>
+          <p>JAVASCRIPT</p>     </div>
         <div>
           <img className='w-20 shadow-md shadow-[#0a165f] hover:scale-110 duration-300' src={react} alt="REACT" />
           <p className='ml-2'>REACT</p>
