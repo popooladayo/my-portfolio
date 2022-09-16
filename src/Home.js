@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <div name="home" className='w-full  h-full bg-[#0a192f] text-white flex items-center justify-center fontFamily'>
-      <div className='  flex px-8 py-28 flex-col '>
+      <div className='  flex px-8 py-28 flex-col md:max-w-[1200px]'>
         <p className='text-pink-300 ml-[0.37em]'>
           Hi my name is   </p>
         <h1 className='font-bold text-white text-3xl md:text-6xl'>Popular Dayor</h1>

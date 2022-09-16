@@ -4,7 +4,7 @@ function Contact() {
   return (
       <div name="contact" className='flex items-center justify-center py-10'>
           <form method='POST' action='https://getform.io/f/ac7dee29-a2d4-4fed-9a98-8f99d92a4cb8' className=' flex flex-col'>
-              <div >
+              <div className=''>
                   <p className='text-gray-300 border-b-pink-500 font-bold text-2xl border-b-4  inline'>Contact</p>
                   <p className='py-4 px-4 text-gray-300'>contact me via my email ppldayo@gmail.com </p>
                  
